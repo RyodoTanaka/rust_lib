@@ -1,0 +1,14 @@
+[package]
+name = "estimation"
+version = "0.1.0"
+authors = ["thibault <thibault.barbie@free.fr>"]
+
+[lib]
+name = "rustestimate"
+crate-type = ["dylib"]
+
+[dependencies.cpython]
+version = "0.1"
+default-features = false
+features = ["python27-sys"]
+
